@@ -1,19 +1,15 @@
-# Your Name Here
+# Ruby Young 
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section:
-# Sources, people worked with, help given to:
-# your
-# comments
-# here
+# 10th November
+# Lab 08
+# Lab Section: 16 
+# Sources, people worked with, help given to: Professor Radosevich, Isabella Cardoso
 
 
 # Write a function that will properly check strings to see if they are an int or float, and convert them if so
 # If they can't be converted return false
 # Other wise return the converted int or float 
 # Floats should only have one decimal point in them 
-
 
 def adv_convert(num):
     negative = False
@@ -36,10 +32,7 @@ def adv_convert(num):
             return int(num)
     return False
 
-
-
 print("*" * 75)
-
 
 # Point-slope y = mx + b
 # This is used in mathematics to determine what the value y would be for any given x
@@ -74,7 +67,6 @@ print("*" * 75)
 # Call your function and print the resulting list\]
 
 
-
 while True:
     m = input('Enter an integer to be the slope of the linear equation: (or enter exit to stop) ')
     if m.lower() == 'exit':
@@ -101,7 +93,6 @@ while True:
     print(f"The list of all the values for u for given x-range is {y}")
 
 
-
 # Write a function to solve the quadratic formula
 # https://en.wikipedia.org/wiki/Quadratic_formula
 # Accept inputs for a, b, c
@@ -111,7 +102,6 @@ while True:
     # If the number you are trying to take the square root of is negative, return null
 
 #Redo this to make if run for the quadratic formula 
-
 
 
 def square_root(a, b, c):
