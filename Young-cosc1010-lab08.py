@@ -52,7 +52,7 @@ print("*" * 75)
 
 def slope_intercept(m, b, lower_bound_x, upper_bound_x):
     y = []
-    if type(lower_bound_x) is int and type(upper_bound_x) is int and lower_bound_x <= upper_bound_x:
+    if type(lower_bound_x) is int and type(upper_bound_x) is int and int and type(m) is int and type(b) is int and lower_bound_x <= upper_bound_x:
         for x in range(lower_bound_x, upper_bound_x+1):
             y.append((m*x)+b)
     else:
